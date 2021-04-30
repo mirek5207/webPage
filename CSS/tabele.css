@@ -1,0 +1,36 @@
+table {
+    text-align: center;
+    width: 94%;
+    margin: 2%;
+}
+
+tbody:nth-child(odd) {
+    background: rgb(190, 190, 225);
+}
+
+tbody>tr:nth-child(even) {
+    background: rgb(143, 146, 223);
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(12, 1, 114);
+}
+
+caption {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+tfoot,
+thead {
+    background: #031e37;
+    color: #fff;
+    font-size: 110%;
+    padding: 5pt;
+}
+
+tfoot a {
+    color: #fff;
+}

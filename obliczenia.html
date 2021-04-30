@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+    <link rel="stylesheet" href="CSS\style.css" type="text/css" />
+    <script src="JS/funkcje.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Kurs HTML</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Podstawowe znaczniki </a></li>
+            <li><a href="table.html">Tworzenie tabel </a></li>
+            <li><a href="">Formularze </a>
+                <ul>
+                    <li><a href="form.html">Pola formularzy </a></li>
+                    <li><a href="calculationInForm.html">Obliczenia w formularzu </a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <section>
+            <header>
+                <h2>Szybki kurs HTML</h2>
+            </header>
+            <article>
+                <header>
+                    <H3>Formularz obliczeniowy:</H3>
+                </header>
+                <section>
+                    <H4>Pożyczka </H4>
+                    <label>Kwota:</label> <input id="quantityCredit" required><br>
+                    <label>Ile rat:</label> <input id="quantityInstallment" required><br>
+                    <label>Procent:</label> <input id="percent" required><br>
+                    <label>Rata miesięczna:</label> <input id="monthInstallments" disabled value=""><br>
+                    <label>Kwota z odsetkami:</label> <input id="SumCreditInstallments" disabled value=""><br><br>
+                    <button onclick="oblicz()">Oblicz sumę : </button>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <H3>Kalkularor</H3>
+                </header>
+                <section>
+                    <h3>Wpisz liczby</h3>
+                    <label>X:</label> <input id="x" required><br>
+                    <label>Y:</label> <input id="y" required><br>
+                    <label>Wynik</label> <input id="score" disabled value=""><br>
+                    <button type="radio" onclick="Calculator(this.innerHTML)">/</button>
+                    <button type="radio" onclick="Calculator(this.innerHTML)">+</button>
+                    <button type="radio" onclick="Calculator(this.innerHTML)">-</button>
+                    <button type="radio" onclick="Calculator(this.innerHTML)">*</button>
+                </section>
+            </article>
+
+        </section>
+        <aside>
+            <p>
+                <a href="http://validator.w3.org/">HTML walidator</a><br><br>
+                <img src="img/zdjecia/htmlW3c.webp" alt="Brak obrazka"><br><br>
+                <a href="https://www.w3schools.com/css/">CSS</a><br>
+                <img src="img/zdjecia/css_validated_web.png" alt="Brak obrazka">
+            </p>
+        </aside>
+    </div>
+    <footer>&copy;BP</footer>
+</body>
+
+</html>

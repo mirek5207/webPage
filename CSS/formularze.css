@@ -1,0 +1,26 @@
+.dataClient {
+    display: inline-block;
+    width: 100px;
+}
+
+form {
+    background: #7FBFFF;
+    padding: 5px;
+
+}
+
+input,
+select {
+    border: none;
+    border-bottom: 1px solid black;
+    background: #7FBFFF;
+    margin: 8px;
+
+
+}
+
+.input_button {
+    background: white;
+    border-bottom: none;
+    width: 80px;
+}

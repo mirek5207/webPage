@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+    <link rel="stylesheet" href="CSS/formularze.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Kurs HTML</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Podstawowe znaczniki </a></li>
+            <li><a href="tabele.html">Tworzenie tabel </a></li>
+            <li><a href="">Formularze </a>
+                <ul>
+                    <li><a href="formularze.html">Pola formularzy </a></li>
+                    <li><a href="obliczenia.html">Obliczenia w formularzu </a></li>
+                </ul>
+            </li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <section>
+            <article>
+                <header>
+                    <H3>Przykładowy formularz HTML:</H3>
+                </header>
+                <section>
+                    <form action="mailto:miroslaw.karwowski@pollub.edu.pl" method="POST">
+
+                        <label class="dataClient">Imię:</label> <input type="text" name="name" pattern="[A-Za-z]{2,}"
+                            required title="Proszę podać imię"><br />
+                        <label class="dataClient">Nazwisko:</label> <input type="text" name="surname"
+                            pattern="[A-Za-z]{2,}" required title="Proszę podać nazwisko"><br />
+                        <label class="dataClient">Wiek:</label> <input type="number" name="age" required
+                            title="Proszę podać wiek"> <br>
+                        <label class="dataClient">Państwo:</label>
+                        <Select>
+                            <option value="Polska">Polska</option>
+                            <option value="Francja">Francja</option>
+                            <option value="Norwegia">Norwegia</option>
+                            <option value="Niemcy">Niemcy</option>
+                            <option value="Ukraina">Ukraina</option>
+                            <option value="Rosja">Rosja</option>
+                        </Select> <br>
+                        <label class="dataClient">Adres e-mail :</label>
+                        <input type="email" name="email" placeholder="name@gmail.com" required
+                            title="Proszę podać email">
+                        <H4>Zamawiam tutorial z języka:</H4>
+                        <input type="checkbox" name="PHP"><label>PHP</label>
+                        <input type="checkbox" name="C/C++"><label>C/C++</label>
+                        <input type="checkbox" name="Java"><label>Java</label>
+                        <H4>Sposób zapłaty:</H4>
+                        <input type="checkbox" name="eurocard"><label>eurocard</label>
+                        <input type="checkbox" name="visa"><label>visa</label>
+                        <input type="checkbox" name="przelew"><label>przelew bankowy</label><br><br>
+                        <input type="submit" value="Wyślij" class="input_button">
+                        <input type="reset" value="Anuluj" class="input_button"><br><br>
+                    </form><br>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <H3>Podstawowe znaczniki HTML to:</H3>
+                </header>
+                <section>
+                    <ul>
+                        <li>&lt;html&gt; - korzeń dokumentu</li>
+                        <li>&lt;head&gt; - nagłówek strony z informacjami dla przeglądarek</li>
+                        <li>&lt;body&gt; - właściwa treść dokumentu widoczna w oknie przeglądarki</li>
+                        <li>&lt;div&gt; - element blokowy</li>
+                        <li>&lt;p&gt; - akapit</li>
+                        <li>&lt;ol&gt;, &lt;ul&gt; i &lt;li&gt; - elementy listy wypunktowanej lub numerowane</li>
+                        <li>&lt;img&gt; - obrazek</li>
+                        <li>&lt;a&gt; - hiperłącze</li>
+                    </ul>
+                </section>
+            </article>
+            <article>
+                <header>
+                    <h3>Kursy:</h3>
+                </header>
+                <section>
+                    <ul>
+                        <li> <a href="https://www.w3schools.com/html/"> HTML</a></li>
+                        <li> <a href="https://www.w3schools.com/css/">CSS</a></li>
+                        <li> <a href="https://www.w3schools.com/js/">JS </a></li>
+                        <li> <a href="https://www.w3schools.com/php/">PHP </a></li>
+                    </ul>
+                </section>
+            </article>
+
+        </section>
+        <aside>
+            <p>
+                <a href="http://validator.w3.org/">HTML walidator</a><br><br>
+                <img src="img/zdjecia/htmlW3c.webp" alt="Brak obrazka"><br><br>
+                <a href="https://www.w3schools.com/css/">CSS</a><br>
+                <img src="img/zdjecia/css_validated_web.png" alt="Brak obrazka">
+            </p>
+        </aside>
+    </div>
+    <footer>&copy;BP</footer>
+</body>
+
+</html>

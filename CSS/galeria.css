@@ -1,0 +1,14 @@
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+
+}
+
+#image img {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
