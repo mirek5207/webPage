@@ -7,11 +7,12 @@ It is simple responsive webPage</br>
 *basic form<br />
 
 ## Appearance of app
-![2022-02-08 at 10-51-22](https://user-images.githubusercontent.com/62155678/152968402-f3582c34-a7c5-48f0-b6d5-f8d80e3a31fc.png)
+![2022-02-08 at 15-57-09](https://user-images.githubusercontent.com/62155678/153013118-948bb598-7e41-49fc-aa2a-271ae652202a.png)
 
 ## Technologies:
-*Html</br>
+*HTML</br>
 *CSS</br>
+*JS</br>
 
 Author: Mirosław Karwowski</br>
 Gmail: mirek15207@gmail.com</br>
